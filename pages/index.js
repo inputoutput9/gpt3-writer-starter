@@ -64,8 +64,8 @@ const onUserChangedText = (event) => {
             </a>
           </div>
           {/* James Park added code here */}
-          {apiOutput && (
-          <div className="output">
+          {apiOutput &&
+          (<div className="output">
             <div className="output-header-container">
               <div className="output-header">
                 <h3>Goka's Answer</h3>
@@ -75,7 +75,7 @@ const onUserChangedText = (event) => {
               <p>{apiOutput}</p>
             </div>
           </div>
-        )}
+          )}
         </div>
       </div>
       <div className="badge-container grow">
