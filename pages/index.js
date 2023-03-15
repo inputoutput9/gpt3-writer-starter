@@ -41,9 +41,9 @@ const onUserChangedText = (event) => {
           </div>
           <div className="header-subtitle">
             <h2><br />
-                Step 1: Tell me about your startup idea.<br />
+                Step 1: Input your startup idea.<br />
                 Step 2: Instantly get an elevator pitch.<br />
-                Step 3: Go raise investor $$$.
+                Step 3: Go get funded.
                 {/*<span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
                   brought to you by:{" "}
                   <a href="https://goka.xyz/" style={{ color: "white" }}>
