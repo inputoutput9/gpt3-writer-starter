@@ -186,8 +186,8 @@ textarea {
 }
 
 .generate-button {
-    border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-bottom-width: 0px;
+    border-color: rgba(66, 103, 178, 0.1);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -217,7 +217,7 @@ textarea {
 }
 
 .generate-button:hover {
-    background-color: #448AFF; /* Change background color on hover */
+    background-color: blue; /* Change background color on hover */
     transition: all .2s ease-in-out;
 }
 
