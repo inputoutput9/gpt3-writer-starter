@@ -27,7 +27,7 @@ const onUserChangedText = (event) => {
             placeholder="start typing here"
             value={userInput}
             onChange={onUserChangedText}
-          />;
+          />
         </div>
       </div>
       <div className="badge-container grow">
