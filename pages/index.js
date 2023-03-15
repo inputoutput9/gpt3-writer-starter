@@ -59,7 +59,10 @@ const onUserChangedText = (event) => {
             className="prompt-box"
             placeholder={`For best results, tell me the problem you solve, your solution, and customer.\n
         Protip \➪ Define the problem, solution, and customer with a colon
-        Example \➪ Problem: It's hard to code `}
+        Example \➪ The Problem: It's hard as fu*k to code
+                                  My Solution: We make it easy as sh*t to code
+                                  My Customer: 
+                     `}
             value={userInput}
             onChange={onUserChangedText}
           />
