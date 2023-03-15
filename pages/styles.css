@@ -17,6 +17,9 @@ body {
     overflow: auto;
     padding: 0px;
     position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
