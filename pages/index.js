@@ -41,8 +41,8 @@ const onUserChangedText = (event) => {
           </div>
           <div className="header-subtitle">
             <h2>
-                Ask me anything. I will answer.<br />
-                Brought to you by goka.xyz
+                Ask me anything. I will answer.<br />Brought to you by
+                <a href="https://example.com"> goka.xyz</a>.
             </h2>
           </div>
         </div>
