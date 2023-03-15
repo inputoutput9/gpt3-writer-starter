@@ -174,7 +174,7 @@ textarea {
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgb(66, 103, 178);
-    border-radius: 10px;
+    border-radius: 16px;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
