@@ -40,7 +40,10 @@ const onUserChangedText = (event) => {
             <h1>Hi, I am Goka AI.</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Ask me anything. I will answer.<br />Brought to you by goka.xyz</h2>
+            <h2>
+                Ask me anything. I will answer.<br />
+                Brought to you by goka.xyz
+            </h2>
           </div>
         </div>
         {/* James Park added code here */}
