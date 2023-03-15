@@ -14,7 +14,7 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>Hi, welcome to Goka AI</h1>
           </div>
           <div className="header-subtitle">
             <h2>insert your subtitle here</h2>
