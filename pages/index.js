@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
+import buildspaceLogo from '../assets/goka-logo.png';
 
 const Home = () => {
 const [userInput, setUserInput] = useState('');
