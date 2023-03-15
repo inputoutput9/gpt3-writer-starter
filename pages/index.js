@@ -71,7 +71,7 @@ const onUserChangedText = (event) => {
                 <h3>Goka's Answer</h3>
               </div>
             </div><div className="output-content">
-
+              <p>{apiOutput}</p>
             </div>
           </div>
           )}
