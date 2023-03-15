@@ -57,9 +57,9 @@ const onUserChangedText = (event) => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder={`For best results, tell me the problem you solve, your solution, and customer.\n
+            placeholder={`For best results, state the problem you solve, solution, and customer.\n
         Protip \➪ Define the problem, solution, and customer with a colon
-        Example \➪ The Problem: It's hard as fu*k to code
+        Example \➪ The Problem: It's hard as fu*k to code!
                                    My Solution: We make it easy as sh*t to code.
                                    My Customer: People that hate to code but need to.
                      `}
