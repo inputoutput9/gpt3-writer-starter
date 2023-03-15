@@ -125,7 +125,8 @@ body {
 
 .prompt-box::placeholder {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Manrope', sans-serif;
 }
 
 textarea {
@@ -314,11 +315,11 @@ textarea {
 
 .output-header h3 {
     font-family: "Manrope", serif;
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 800;
     letter-spacing: 0px;
-    line-height: 1.4em;
+    line-height: 1.0em;
     text-align: start;
     color: #ffffff;
     text-decoration: none;
