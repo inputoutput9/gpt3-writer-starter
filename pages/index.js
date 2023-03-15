@@ -37,7 +37,7 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Instant elevator pitch</h1>
+            <h1>Instantly generate a startup elevator pitch</h1>
           </div>
           <div className="header-subtitle">
             <h2><br />
