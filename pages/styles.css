@@ -219,7 +219,8 @@ textarea {
 }
 
 .generate-button:hover {
-    background-color: rgb(86, 133, 229);
+    background-color: #448AFF; /* Change background color on hover */
+    transform: scale(1.1); /* Add a scale effect on hover */
 }
 
 .loading {
