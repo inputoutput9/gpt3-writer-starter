@@ -44,12 +44,12 @@ const onUserChangedText = (event) => {
                 Step 1: Tell me about your startup idea.<br />
                 Step 2: Instantly get an elevator pitch.<br />
                 Step 3: Go raise investor $$$.<br /><br />
-                <span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
+                {/*<span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
                   brought to you by:{" "}
                   <a href="https://goka.xyz/" style={{ color: "white" }}>
                     James Park
                   </a>
-                </span>
+                </span>*/}
             </h2>
           </div>
         </div>
