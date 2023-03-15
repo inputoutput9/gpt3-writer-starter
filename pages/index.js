@@ -51,7 +51,7 @@ const onUserChangedText = (event) => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="start typing here"
+            placeholder="Ask Goka your question here."
             value={userInput}
             onChange={onUserChangedText}
           />
