@@ -90,13 +90,13 @@ const onUserChangedText = (event) => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://goka.xyz"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>build with goka.xyz</p>
           </div>
         </a>
       </div>
