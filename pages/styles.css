@@ -236,9 +236,9 @@ textarea {
     filter: grayscale(1);
     transform: none;
     transform-origin: 50% 50% 0px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     line-height: 1em;
     color: #fff;
     padding: 15px;
@@ -253,7 +253,7 @@ textarea {
 .badge img {
     width: 21px;
     height: 21px;
-    image-rendering: pixelated;
+    image-rendering: auto;
     flex-shrink: 0;
     fill: black;
     color: black;
