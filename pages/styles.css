@@ -347,7 +347,7 @@ textarea {
     padding: 20px;
     position: relative;
     width: 610px;
-    max-width: 1200px;
+    max-width: auto;
     will-change: transform;
     overflow: auto;
     outline: none;
