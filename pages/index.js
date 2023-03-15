@@ -79,7 +79,7 @@ const onUserChangedText = (event) => {
           (<div className="output">
             <div className="output-header-container">
               <div className="output-header">
-                <h3>Goka's Answer</h3>
+                <h3>Your elevator pitch</h3>
               </div>
             </div><div className="output-content">
               <p>{apiOutput}</p>
