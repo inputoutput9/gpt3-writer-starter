@@ -20,20 +20,20 @@ body {
 }
 
 .container {
-    display: flex;
-    place-content: center flex-start;
-    align-items: center;
-    flex: 0 0 auto;
-    flex-flow: column nowrap;
-    gap: 10px;
-    height: fit-content;
-    max-width: 975px;
-    overflow: auto;
-    padding-top: 50px;
-    position: relative;
-    width: auto;
-    gap: 64px;
-}
+    display: flex;              /* Set the display property to "flex" */
+    place-content: center flex-start; /* Align the items along the horizontal axis to the center, and the items along the vertical axis to the start */
+    align-items: center;        /* Align the items along the vertical axis to the center */
+    flex: 0 0 auto;             /* Set the flex-grow, flex-shrink, and flex-basis properties to 0, 0, and auto, respectively */
+    flex-flow: column nowrap;   /* Set the flex-direction property to "column" and the flex-wrap property to "nowrap" */
+    gap: 10px;                  /* Set the gap between items to 10 pixels */
+    height: fit-content;        /* Set the height of the container to fit the content */
+    max-width: 975px;           /* Set the maximum width of the container to 975 pixels */
+    overflow: auto;             /* Set the overflow property to "auto" */
+    padding-top: 50px;          /* Set the padding on the top of the container to 50 pixels */
+    position: relative;         /* Set the position property to "relative" */
+    width: auto;                /* Set the width of the container to "auto" */
+    gap: 64px;                  /* Set the gap between items to 64 pixels */
+  }
 
 .header {
     display: flex;
