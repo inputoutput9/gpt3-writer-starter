@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  display: flex;              /* Set the display property to "flex" */
+  display: inline-block;              /* Set the display property to "flex" */
   place-content: center flex-start; /* Align the items along the horizontal axis to the center, and the items along the vertical axis to the start */
   align-items: center;        /* Align the items along the vertical axis to the center */
   flex: 0 0 auto;             /* Set the flex-grow, flex-shrink, and flex-basis properties to 0, 0, and auto, respectively */
