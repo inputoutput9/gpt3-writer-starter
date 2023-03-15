@@ -349,10 +349,6 @@ textarea {
 .output-content p {
     text-align: left;
     color: rgba(255, 255, 255, 0.75);
-    display: inline-block;
-    margin: 0;
-    vertical-align: top;
-    white-space: pre-line;
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
