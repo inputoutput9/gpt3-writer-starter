@@ -521,3 +521,18 @@ textarea {
       width: 610px;
     }
   }
+
+
+  @media screen and (max-width: 480px) {
+    .header-subtitle h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .prompt-box {
+      overflow-y: scroll;
+    }
+  }
+  
