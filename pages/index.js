@@ -45,7 +45,7 @@ const onUserChangedText = (event) => {
                 Step 2: Instantly get an elevator pitch.<br />
                 Step 3: Go raise investor $$$.<br /><br />
                 <span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
-                  Brought to you by:{" "}
+                  brought to you by:{" "}
                   <a href="https://goka.xyz/" style={{ color: "white" }}>
                     James Park
                   </a>
