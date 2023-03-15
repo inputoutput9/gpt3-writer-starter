@@ -37,7 +37,7 @@ const onUserChangedText = (event) => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Hi, I am Goka AI.</h1>
+            <h1>Hi, I generate instant elevator pitches.</h1>
           </div>
           <div className="header-subtitle">
             <h2><br />
@@ -96,7 +96,7 @@ const onUserChangedText = (event) => {
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with goka.xyz</p>
+            <p>buidl with goka.xyz</p>
           </div>
         </a>
       </div>
