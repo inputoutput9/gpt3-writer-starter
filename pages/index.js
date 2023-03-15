@@ -54,7 +54,7 @@ const onUserChangedText = (event) => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="For best results, tell me the problem you solve, solution, and customer.\n Tip:  "
+            placeholder={`For best results, tell me the problem you solve, your solution, and customer.\nTip: 2 to 3 sentences is enough. Feel free to add more details. `}
             value={userInput}
             onChange={onUserChangedText}
           />
