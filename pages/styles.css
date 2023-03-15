@@ -114,6 +114,10 @@ body {
     text-transform: none;
 }
 
+.prompt-box::placeholder {
+    color: #ccc;
+}
+
 textarea {
     font-family: 'Manrope', sans-serif;
 }
