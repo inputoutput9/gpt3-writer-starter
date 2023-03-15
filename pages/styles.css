@@ -252,7 +252,7 @@ textarea {
 
 .badge img {
     width: 21px;
-    height: 17px;
+    height: 21px;
     image-rendering: pixelated;
     flex-shrink: 0;
     fill: black;
