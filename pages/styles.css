@@ -328,6 +328,7 @@ textarea {
     gap: 10px;
     height: 150px;
     overflow: hidden;
+    padding-top: -10;
     padding: 20px;
     position: relative;
     width: 610px;
@@ -347,6 +348,7 @@ textarea {
 }
 
 .output-content p {
+    margin: 0;
     text-align: left;
     color: rgba(255, 255, 255, 0.75);
     vertical-align: top;
