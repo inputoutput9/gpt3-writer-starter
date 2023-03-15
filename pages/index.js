@@ -44,7 +44,7 @@ const onUserChangedText = (event) => {
                 Step 1: Tell me about your startup idea.<br />
                 Step 2: I will write you an elevator pitch.<br />
                 Step 3: Go raise investor $$$.<br /><br />
-                brought to you by:{" "}
+                Brought to you by:{" "}
                 <a href="https://goka.xyz/" style={{ color: "white" }}> goka.xyz
                 </a>
             </h2>
@@ -54,7 +54,7 @@ const onUserChangedText = (event) => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Write 2 to 4 sentences about the problem your business/startup solves, the solution, and your target customer."
+            placeholder="Tip: Write 2 to 4 sentences about the problem your business/startup solves, the solution, and your target customer."
             value={userInput}
             onChange={onUserChangedText}
           />
