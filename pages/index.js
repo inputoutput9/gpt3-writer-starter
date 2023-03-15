@@ -40,8 +40,11 @@ const onUserChangedText = (event) => {
             <h1>Hi, I am Goka AI.</h1>
           </div>
           <div className="header-subtitle">
-            <h2>
-                Ask me anything. I will answer.<br />Brought to you by:{" "}
+            <h2><br />
+                Step 1: Tell me about your startup idea.<br />
+                Step 2: I will write you an elevator pitch.<br />
+                Step 3: Go raise investor $$$.<br /><br />
+                brought to you by:{" "}
                 <a href="https://goka.xyz/" style={{ color: "white" }}> goka.xyz
                 </a>
             </h2>
