@@ -333,7 +333,7 @@ textarea {
     width: 610px;
     max-width: 1200px;
     will-change: transform;
-    overflow: hidden;
+    overflow: auto;
     outline: none;
     resize: none;
     font-size: 16px;
