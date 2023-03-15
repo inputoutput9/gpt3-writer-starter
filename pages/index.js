@@ -58,8 +58,8 @@ const onUserChangedText = (event) => {
           <textarea
             className="prompt-box"
             placeholder={`For best results, tell me the problem you solve, your solution, and customer.\n
-        Protip &rarr; Define the problem, solution, and customer with a ":"
-        Here's an Example | Problem:  `}
+        Protip \➪ Define the problem, solution, and customer with a colon
+        Example \➪ Problem: It's hard  `}
             value={userInput}
             onChange={onUserChangedText}
           />
