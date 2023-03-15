@@ -31,7 +31,7 @@ body {
   padding-top: 50px;          /* Set the padding on the top of the container to 50 pixels */
   position: relative;         /* Set the position property to "relative" */
   width: auto;                /* Set the width of the container to "auto" */
-  gap: 64px;                  /* Set the gap between items to 64 pixels */
+  gap: 20px;                  /* Set the gap between items to 64 pixels */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@ body {
     text-decoration: none;
     text-transform: none;
     margin: 0;
-    
+
 }
 
 .prompt-container {
