@@ -116,7 +116,7 @@ body {
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0px;
-    line-height: 1.6em;
+    line-height: 1.5em;
     text-align: start;
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
@@ -367,9 +367,11 @@ textarea {
     margin-top: 0em;
     margin-bottom: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.9);
     vertical-align: top;
     white-space: pre-line;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
