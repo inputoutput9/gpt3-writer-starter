@@ -193,7 +193,7 @@ textarea {
     border-style: solid;
     border-top-width: 1px;
     background-color: rgb(66, 103, 178);
-    border-radius: 20%;
+    border-radius: 10%;
     transform: none;
     transform-origin: 50% 50% 0px;
     font-size: 17px;
