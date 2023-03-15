@@ -186,7 +186,7 @@ textarea {
 }
 
 .generate-button {
-    border-bottom-width: 0px;
+    border-bottom-width: 1px;
     border-color: rgba(66, 103, 178, 0.1);
     border-left-width: 1px;
     border-right-width: 1px;
