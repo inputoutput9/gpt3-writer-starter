@@ -42,8 +42,8 @@ const onUserChangedText = (event) => {
           <div className="header-subtitle">
             <h2><br />
                 Step 1: Tell me about your startup idea.<br />
-                Step 2: I will write you an elevator pitch.<br />
-                Step 3: Go raise investor $$$.<br />
+                Step 2: Instantly get an elevator pitch.<br />
+                Step 3: Go raise investor $$$.<br /><br /><br />
                 <span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
       Brought to you by:{" "}
       <a href="https://goka.xyz/" style={{ color: "white" }}>
@@ -57,7 +57,9 @@ const onUserChangedText = (event) => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder={`For best results, tell me the problem you solve, your solution, and customer.\nTip: 2 to 3 sentences is enough. Feel free to add more details. `}
+            placeholder={`For best results, tell me the problem you solve, your solution, and customer.\n
+        Protip: Define the problem, solution, and customer with a ":"
+        Here's an Example: Problem:  `}
             value={userInput}
             onChange={onUserChangedText}
           />
