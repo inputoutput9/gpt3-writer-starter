@@ -458,3 +458,66 @@ textarea {
         transform: rotate(360deg);
     }
 }
+
+
+
+
+/* CSS for screens with a width of 600px or less */
+@media only screen and (max-width: 600px) {
+    .header-title h1 {
+      font-size: 40px;
+    }
+
+    .header-subtitle h2 {
+      font-size: 28px;
+    }
+
+    .prompt-box {
+      width: 100%;
+      height: auto;
+    }
+
+    .output-content {
+      width: 100%;
+    }
+  }
+
+  /* CSS for screens with a width of 601px to 900px */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .header-title h1 {
+      font-size: 60px;
+    }
+
+    .header-subtitle h2 {
+      font-size: 32px;
+    }
+
+    .prompt-box {
+      width: 100%;
+      height: auto;
+    }
+
+    .output-content {
+      width: 100%;
+    }
+  }
+
+  /* CSS for screens with a width of 901px or greater */
+  @media only screen and (min-width: 901px) {
+    .header-title h1 {
+      font-size: 72px;
+    }
+
+    .header-subtitle h2 {
+      font-size: 35px;
+    }
+
+    .prompt-box {
+      width: 610px;
+      height: 150px;
+    }
+
+    .output-content {
+      width: 610px;
+    }
+  }
