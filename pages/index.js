@@ -23,10 +23,10 @@ const onUserChangedText = (event) => {
         {/* Add this code here*/}
         <div className="prompt-container">
           <textarea
-            className="prompt-box"
-            placeholder="start typing here"
-            value={userInput}
-            onChange={onUserChangedText}
+              className="prompt-box"
+              placeholder="start typing here"
+              value={userInput}
+              onChange={onUserChangedText}
           />;
         </div>
       </div>
