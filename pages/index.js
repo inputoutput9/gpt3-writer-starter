@@ -29,14 +29,14 @@ const onUserChangedText = (event) => {
               onChange={onUserChangedText}
           />;
             {/* New code I added here */}
-              <div className="prompt-buttons">
-                <a className="generate-button" onClick={null}>
-                  <div className="generate">
-                    <p>Generate</p>
-                  </div>
-                </a>
+          <div className="prompt-buttons">
+            <a className="generate-button" onClick={null}>
+              <div className="generate">
+                <p>Generate</p>
               </div>
-            </div>
+            </a>
+          </div>
+        </div>
         </div>
       </div>
       <div className="badge-container grow">
