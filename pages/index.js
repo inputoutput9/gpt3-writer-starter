@@ -43,13 +43,13 @@ const onUserChangedText = (event) => {
             <h2><br />
                 Step 1: Tell me about your startup idea.<br />
                 Step 2: Instantly get an elevator pitch.<br />
-                Step 3: Go raise investor $$$.<br /><br /><br />
+                Step 3: Go raise investor $$$.<br /><br />
                 <span style={{ fontSize: "10px", textAlign: "right", display: "block" }}>
-      Brought to you by:{" "}
-      <a href="https://goka.xyz/" style={{ color: "white" }}>
-        James Park
-      </a>
-    </span>
+                  Brought to you by:{" "}
+                  <a href="https://goka.xyz/" style={{ color: "white" }}>
+                    James Park
+                  </a>
+                </span>
             </h2>
           </div>
         </div>
@@ -60,8 +60,8 @@ const onUserChangedText = (event) => {
             placeholder={`For best results, tell me the problem you solve, your solution, and customer.\n
         Protip \➪ Define the problem, solution, and customer with a colon
         Example \➪ The Problem: It's hard as fu*k to code
-                                  My Solution: We make it easy as sh*t to code
-                                  My Customer: 
+                                   My Solution: We make it easy as sh*t to code.
+                                   My Customer: People that hate to code but need to.
                      `}
             value={userInput}
             onChange={onUserChangedText}
