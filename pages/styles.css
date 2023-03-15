@@ -312,7 +312,7 @@ textarea {
 
 .output-content {
     border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 100);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -347,7 +347,6 @@ textarea {
 
 .output-content p {
     text-align: left;
-    white-space: pre-line;
     color: rgba(255, 255, 255, 0.75);
 }
 
