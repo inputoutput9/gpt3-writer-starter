@@ -535,4 +535,64 @@ textarea {
       overflow-y: scroll;
     }
   }
-  
+
+
+  @media (max-width: 600px) {
+    .prompt-box {
+      width: 90%;
+      font-size: 14px;
+    }
+
+    .prompt-box::placeholder {
+      font-size: 12px;
+    }
+
+    .output-header h3 {
+      font-size: 24px;
+    }
+
+    .output-content {
+      width: 90%;
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 1199px) {
+    .prompt-box {
+      width: 70%;
+      font-size: 16px;
+    }
+
+    .prompt-box::placeholder {
+      font-size: 14px;
+    }
+
+    .output-header h3 {
+      font-size: 30px;
+    }
+
+    .output-content {
+      width: 70%;
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .prompt-box {
+      width: 610px;
+      font-size: 16px;
+    }
+
+    .prompt-box::placeholder {
+      font-size: 14px;
+    }
+
+    .output-header h3 {
+      font-size: 30px;
+    }
+
+    .output-content {
+      width: 610px;
+      font-size: 16px;
+    }
+  }
