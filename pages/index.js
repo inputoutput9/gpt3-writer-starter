@@ -45,7 +45,8 @@ const onUserChangedText = (event) => {
                 Step 2: I will write you an elevator pitch.<br />
                 Step 3: Go raise investor $$$.<br />
                 Brought to you by:{" "}
-                <a href="https://goka.xyz/" style={{ color: "white" }}> James Park
+                <a href="https://goka.xyz/" style={{ color: "white" }}>
+                James Park
                 </a>
             </h2>
           </div>
