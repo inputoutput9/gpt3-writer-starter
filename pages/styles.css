@@ -147,7 +147,7 @@ textarea {
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
-    height: min-content;
+    height: auto;
     overflow: hidden;
     padding: 0px;
     position: relative;
