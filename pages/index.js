@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/goka-logo.png';
+import gokaLogo from '../assets/goka-logo.png';
 
 const Home = () => {
 const [userInput, setUserInput] = useState('');
@@ -94,7 +94,7 @@ Example input  \➪  " The Problem: It's hard as fu*k to code! "
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
+            <Image src={gokaLogo} alt="goka logo" />
             <p>buidl with goka.xyz</p>
           </div>
         </a>
